@@ -23,7 +23,7 @@ function filterByQuery(query, animalsArray) {
       // For each trait being targeted by the filter, the filteredResults
       // array will then contain only the entries that contain the trait,
       // so at the end we'll have an array of animals that have every one 
-      // of the traits when the .forEach() loop is finished.
+      // of the traits when the .forEach() loop is finished. 
       filteredResults = filteredResults.filter(
         animal => animal.personalityTraits.indexOf(trait) !== -1
       );
